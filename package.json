@@ -1,0 +1,29 @@
+{
+  "name": "webpack-try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Filip-Rogalski/webpack-try.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Filip-Rogalski/webpack-try/issues"
+  },
+  "homepage": "https://github.com/Filip-Rogalski/webpack-try#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "@babel/register": "^7.0.0-beta.37",
+    "webpack": "^3.10.0"
+  }
+}
