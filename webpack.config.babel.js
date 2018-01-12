@@ -9,8 +9,21 @@ let webpackConfig = {
         path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js'
     },
+    
+    // resolve: {
+    //     root: [
+    //         __dirname,
+    //         __dirname, '/templates'
+    //     ]
+    // },
+
     module: {
         rules: [
+            {
+                test: /\.html$/,
+                use: 'nunjucks-loader',
+            },
+
             {
                 test: /\.s[ac]ss$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
