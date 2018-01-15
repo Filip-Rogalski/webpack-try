@@ -1,0 +1,10 @@
+h1 {
+  color: red; }
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  background: url(images/image.png); }
+
+body {
+  background-color: lightgrey; }
